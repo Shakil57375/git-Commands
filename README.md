@@ -63,3 +63,8 @@ git branch --list
 ```
 git branch [branch name]
 ```
+
+### to switch from one branch to another type: 
+```
+git switch [branch name]
+```
