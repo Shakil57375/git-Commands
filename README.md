@@ -88,7 +88,7 @@ git branch -d [branch name]
 
 ### to edit a branch name type :
 ```
-git branch -m [old branch name] [new branch name]
+git branch -m [old branch name ] [new branch name]
 ```
 
 
