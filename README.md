@@ -81,3 +81,7 @@ git switch [branch name]
 ```
 https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
 ```
+### to delete a branch type 👍:
+```
+git branch -d [branch name]
+```
