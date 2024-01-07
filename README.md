@@ -68,3 +68,8 @@ git branch [branch name]
 ```
 git switch [branch name]
 ```
+### to merge or to have the information from the  other branches follow this steps: 
+```
+1. switch to the branch you want to have data.
+2. type : (git merge [branch name (which branches data you want)])
+```
