@@ -80,3 +80,7 @@ git switch [branch name]
 1. switch to the branch you want to have data.
 2. type : (git merge [branch name (which branches data you want)])
 ```
+### to delete a branch type 👍:
+```
+git branch -d [branch name]
+```
