@@ -51,20 +51,33 @@ git log --oneline [to have one line of history]
 - at first copy the id of previous commit from (git commit --online)
 - then type [git reset --hard (previous commits id)]
 ```
+
 #### you will not get back the commits you have been switched on by using git log/ git log --oneline. But if you want to have all the commit history you can type 👍
+
 ```
 git reflog
 ```
-### to check how many branches you have or you have create type: 
+
+### to check how many branches you have or you have create type:
+
 ```
 git branch --list
 ```
-### to create a branch type: 
+
+### to create a branch type:
+
 ```
 git branch [branch name]
 ```
 
-### to switch from one branch to another type: 
+### to switch from one branch to another type:
+
 ```
 git switch [branch name]
+```
+
+### checkout this documentation of chat-gpt for more information about create, rename, delete , recover a deleted branch and many more.
+
+```
+https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
 ```
