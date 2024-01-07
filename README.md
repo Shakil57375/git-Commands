@@ -55,3 +55,7 @@ git log --oneline [to have one line of history]
 ```
 git reflog
 ```
+### to check how many branches you have or you have create type: 
+```
+git branch --list
+```
