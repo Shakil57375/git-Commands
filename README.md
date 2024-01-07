@@ -80,3 +80,9 @@ git switch [branch name]
 1. switch to the branch you want to have data.
 2. type : (git merge [branch name (which branches data you want)])
 ```
+
+### checkout this documentation of chat-gpt for more information about create, rename, delete , recover a deleted branch and many more.
+
+```
+https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
+```
