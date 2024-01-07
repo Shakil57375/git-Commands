@@ -85,3 +85,10 @@ https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
 ```
 git branch -d [branch name]
 ```
+
+### to edit a branch name type :
+```
+git branch -m [old branch name] [new branch name]
+```
+
+
