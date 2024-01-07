@@ -59,3 +59,7 @@ git reflog
 ```
 git branch --list
 ```
+### to create a branch type: 
+```
+git branch [branch name]
+```
