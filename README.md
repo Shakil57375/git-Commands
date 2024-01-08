@@ -122,5 +122,14 @@ git merge [branch-name]: Merges changes from another branch into the current bra
 
 ### Inspecting History:
 
-```git log: Shows a list of commits in the repository.
-git diff [commit1] [commit2]: Shows the differences between two commits.```
+```
+git log: Shows a list of commits in the repository.
+git diff [commit1] [commit2]: Shows the differences between two commits.
+```
+
+### Undoing Changes:
+
+```
+git reset --soft HEAD~1: Undoes the most recent commit, leaving changes in the staging area.
+git reset --hard HEAD~1: Undoes the most recent commit, discarding uncommitted changes.
+```
