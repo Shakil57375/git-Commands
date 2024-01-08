@@ -1,104 +1,114 @@
-# Github commands
-- ### To check the present working directory type
+### Setting up Git:
 
-```
-pwd
-```
+1. **Initialize a Git repository:**
+    ```bash
+    git init
+    ```
 
-- ### To create a new file type :
+2. **Clone a repository:**
+    ```bash
+    git clone <repository-url>
+    ```
 
-```
-touch [file Name]
-```
+### Basic Git Commands:
 
-- ### To check how many file or what's the files you have type:
+3. **Check the status of your repository:**
+    ```bash
+    git status
+    ```
 
-```
-ls
-```
+4. **Stage changes for commit:**
+    ```bash
+    git add <file(s)>
+    ```
 
-- ### To check what git tracking what not type:
+5. **Commit changes:**
+    ```bash
+    git commit -m "Your commit message"
+    ```
 
-```
-git status
-```
+6. **Push changes to a remote repository:**
+    ```bash
+    git push origin <branch-name>
+    ```
 
-- ### To check the lists of files including hidden files type:
+7. **Pull changes from a remote repository:**
+    ```bash
+    git pull origin <branch-name>
+    ```
 
-```
-git status
-```
+### Branching and Merging:
 
-- ### To add something on the git or available for tracking of git just simply type type:
+8. **Create a new branch:**
+    ```bash
+    git branch <branch-name>
+    ```
 
-```
-git add [file name] // to add specific file
-git add --all // to add all the files on the folder
-git add . // to add all the file [work as same as git add -all]
-```
+9. **Switch to a branch:**
+    ```bash
+    git checkout <branch-name>
+    ```
 
-- ### use the command to know the git commit history:
+10. **Merge branches:**
+    ```bash
+    git merge <branch-name>
+    ```
 
-```
-git log
-git log --oneline [to have one line of history]
-```
+11. **Delete a branch:**
+    ```bash
+    git branch -d <branch-name>
+    ```
 
-- ### to have the previous commit back or to have what have you done on your previous commit you have to do this:
+### Working with Remotes:
 
-```
-- at first copy the id of previous commit from (git commit --online)
-- then type [git reset --hard (previous commits id)]
-```
+12. **Add a remote repository:**
+    ```bash
+    git remote add <remote-name> <remote-url>
+    ```
 
-#### you will not get back the commits you have been switched on by using git log/ git log --oneline. But if you want to have all the commit history you can type 👍
+13. **Remove a remote repository:**
+    ```bash
+    git remote remove <remote-name>
+    ```
 
-```
-git reflog
-```
+14. **Fetch changes from a remote repository:**
+    ```bash
+    git fetch <remote-name>
+    ```
 
-### to check how many branches you have or you have create type:
+### Handling Conflicts:
 
-```
-git branch --list
-```
+15. **Check for conflicts:**
+    ```bash
+    git diff
+    ```
 
-### to create a branch type:
+16. **Resolve conflicts and mark as resolved:**
+    ```bash
+    git add <conflicted-file(s)>
+    ```
 
-```
-git branch [branch name]
-```
+17. **Continue with the merge after conflicts:**
+    ```bash
+    git merge --continue
+    ```
 
-### to switch from one branch to another type:
+### Logging and History:
 
-```
-git switch [branch name]
-```
+18. **View commit history:**
+    ```bash
+    git log
+    ```
 
-### to merge or to have the information from the other branches follow this steps:
+19. **View a specific commit:**
+    ```bash
+    git show <commit-hash>
+    ```
 
-```
-1. switch to the branch you want to have data.
-2. type : (git merge [branch name (which branches data you want)])
-```
-
-### checkout this documentation of chat-gpt for more information about create, rename, delete , recover a deleted branch and many more.
-
-```
-https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
-```
-
-### to delete a branch type 👍:
-
-```
-git branch -d [branch name]
-```
-
-### to edit a branch name type :
-
-```
-git branch -m [old branch name ] [new branch name]
-```
+20. **Undo the last commit (careful with this):**
+    ```bash
+    git reset --hard HEAD^
+    ```
 
 ### Essential Commands:
 
