@@ -133,3 +133,13 @@ git diff [commit1] [commit2]: Shows the differences between two commits.
 git reset --soft HEAD~1: Undoes the most recent commit, leaving changes in the staging area.
 git reset --hard HEAD~1: Undoes the most recent commit, discarding uncommitted changes.
 ```
+
+### Other Useful Commands:
+
+```
+git init: Initializes a new Git repository in a directory.
+git clone [URL]: Clones an existing Git repository from a remote location.
+git remote -v: Shows a list of remote repositories.
+git config --global user.name "[name]": Sets the user's name for Git commits.
+git config --global user.email "[email]": Sets the user's email address for Git commits.
+```
