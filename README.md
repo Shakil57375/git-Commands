@@ -1,5 +1,4 @@
 # Github commands
-
 - ### To check the present working directory type
 
 ```
