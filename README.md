@@ -1,6 +1,6 @@
 # Github commands
 
-- ### To check the present working directory type
+- ### To check the present working directory  type
 
 ```
 pwd
