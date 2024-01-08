@@ -1,6 +1,6 @@
 # Github commands
 
-- ### To check the present working directory  type
+- ### To check the present working directory type
 
 ```
 pwd
@@ -75,7 +75,9 @@ git branch [branch name]
 ```
 git switch [branch name]
 ```
-### to merge or to have the information from the other branches follow this steps: 
+
+### to merge or to have the information from the other branches follow this steps:
+
 ```
 1. switch to the branch you want to have data.
 2. type : (git merge [branch name (which branches data you want)])
@@ -86,14 +88,25 @@ git switch [branch name]
 ```
 https://chat.openai.com/share/f076ba8e-62ac-4249-a039-d50f7dfe3fc4
 ```
+
 ### to delete a branch type 👍:
+
 ```
 git branch -d [branch name]
 ```
 
 ### to edit a branch name type :
+
 ```
 git branch -m [old branch name ] [new branch name]
 ```
 
+### Essential Commands:
 
+```git status: Checks the status of files in the working directory, staging area, and repository.
+git add [file]: Adds a file or changes to the staging area.
+git reset [file]: Unstages a file from the staging area.
+git commit -m "[message]": Commits staged changes to the repository with a descriptive message.
+git push origin [branch]: Pushes commits to a remote branch on GitHub.
+git pull origin [branch]: Pulls changes from a remote branch to the local repository.
+```
