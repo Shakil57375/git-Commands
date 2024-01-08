@@ -103,10 +103,19 @@ git branch -m [old branch name ] [new branch name]
 
 ### Essential Commands:
 
-```git status: Checks the status of files in the working directory, staging area, and repository.
+```
+git status: Checks the status of files in the working directory, staging area, and repository.
 git add [file]: Adds a file or changes to the staging area.
 git reset [file]: Unstages a file from the staging area.
 git commit -m "[message]": Commits staged changes to the repository with a descriptive message.
 git push origin [branch]: Pushes commits to a remote branch on GitHub.
 git pull origin [branch]: Pulls changes from a remote branch to the local repository.
+
+```
+
+### Branching and Merging:
+
+```git branch [branch-name]: Creates a new branch.
+git checkout [branch-name]: Switches to a different branch.
+git merge [branch-name]: Merges changes from another branch into the current branch.```
 ```
