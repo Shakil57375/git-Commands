@@ -119,3 +119,8 @@ git pull origin [branch]: Pulls changes from a remote branch to the local reposi
 git checkout [branch-name]: Switches to a different branch.
 git merge [branch-name]: Merges changes from another branch into the current branch.```
 ```
+
+### Inspecting History:
+
+```git log: Shows a list of commits in the repository.
+git diff [commit1] [commit2]: Shows the differences between two commits.```
